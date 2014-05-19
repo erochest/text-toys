@@ -19,6 +19,7 @@ library
   exposed-modules:     TextToys
                      , TextToys.Breaks
                      , TextToys.Types
+                     , TextToys.Utils
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8
