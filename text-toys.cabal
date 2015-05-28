@@ -22,7 +22,7 @@ library
                      , TextToys.Utils
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.7 && <4.8
+  build-depends:       base >=4.7 && <5
                      , text
                      , text-icu
   hs-source-dirs:      src
@@ -33,7 +33,7 @@ test-suite text-toys-specs
   ghc-options:         -threaded -rtsopts
   hs-source-dirs:      specs
   main-is:             Specs.hs
-  build-depends:         base       == 4.7.*
+  build-depends:         base
                        , text-toys
                        , hspec
                        , QuickCheck

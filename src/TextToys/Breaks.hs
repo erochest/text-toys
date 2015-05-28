@@ -14,6 +14,7 @@ import           Control.Arrow  ((&&&))
 import           Data.Monoid
 import qualified Data.Text      as T
 import           Data.Text.ICU
+import           Prelude        hiding (Word)
 
 import           TextToys.Utils
 
